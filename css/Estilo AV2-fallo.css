@@ -1,9 +1,0 @@
-/* Variante personalizada para tablas */
-.table-custom {
-  --bs-table-bg: #ffeb3b;            /* Fondo base amarillo */
-  --bs-table-striped-bg: #fff176;    /* Fondo alternado */
-  --bs-table-hover-bg: #fdd835;      /* Fondo al pasar el mouse */
-  --bs-table-border-color: #fbc02d;  /* Color de borde */
-  color: black;                      /* Texto */
-  border-color: var(--bs-table-border-color);
-}

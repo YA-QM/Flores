@@ -1,7 +1,0 @@
-.table-custom > tbody > tr:nth-of-type(even) {
-    --bs-table-accent-bg: #ffdc7a; /* par */
-}
-
-.table-custom > tbody > tr:nth-of-type(odd) {
-    --bs-table-accent-bg: #ffc219; /* impar */
-}
