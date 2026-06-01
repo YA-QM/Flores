@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formularios Completos</title>
+    <meta charset="utf-8">
+</head>
+<body bgcolor="#E8E8E8">
+    <center>
+        <font face="Cooper" color="#334FD4" size="24">Uso de Formularios</font>
+        <font face="Calibri" color="#2E4053" size="4">
+        <br/><br/>
+
+        <!-- Formulario Básico -->
+        <fieldset><legend>Formulario Básico</legend>
+        <form action="http://www.inacap.cl">
+        <table border="1">
+            <tr><th>Control</th><th>Objeto</th></tr>
+            <tr><td>Caja de Texto</td><td><input type="text" name="caja1" placeholder="Escribe tu RUT" /></td></tr>
+            <tr><td>Caja de Contraseña</td><td><input type="password" name="pass1" /></td></tr>
+            <tr><td>Botones de Chequeo</td><td>
+                <input type="checkbox" name="check1" value="Op1" />Opción 1 <br/>
+                <input type="checkbox" name="check2" value="Op2" checked="checked" />Opción 2 <br/>
+                <input type="checkbox" name="check3" value="Op3" />Opción 3
+            </td></tr>
+            <tr><td>Botones de Radio</td><td>
+                <input type="radio" name="radio1" value="jd" checked="checked" />Jornada Diurna <br/>
+                <input type="radio" name="radio1" value="jv" />Jornada Vespertina
+            </td></tr>
+            <tr><td>Botón de Envío</td><td><input type="submit" name="enviar" value="Enviar Formulario" /></td></tr>
+            <tr><td>Botón de Limpieza</td><td><input type="reset" name="limpia" value="Limpiar Formulario" /></td></tr>
+            <tr><td>Botón de Imagen</td><td align="center"><input type="image" name="boton2" src="img/boton.jpg" width="90px" height="36px" /></td></tr>
+            <tr><td>Adjuntar Archivos</td><td><input type="file" name="adjuntar" /></td></tr>
+        </table>
+        </form>
+        </fieldset>
+
+        <!-- Área de Texto y Selectores -->
+        <fieldset><legend>Formulario Selectores</legend>
+        <table border="1">
+            <tr><th>Control</th><th>Objeto</th></tr>
+            <tr>
+                <td>Área de Texto</td>
+                <td>
+                    <label for="descripcion">Descripción</label><br/>
+                    <textarea id="textar" name="desc" cols="50" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Select con Combo</td>
+                <td>
+                    <select id="sel">
+                        <option value="a0" selected>Selecciona Marca</option>
+                        <option value="a1">Nissan</option>
+                        <option value="a2">Chevrolet</option>
+                        <option value="a3">Ford</option>
+                        <option value="a4">Kia</option>
+                        <option value="a5">Mazda</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Select con Tamaño</td>
+                <td>
+                    <select id="sel" size="6">
+                        <option value="a0" selected>Selecciona Marca</option>
+                        <option value="a1">Nissan</option>
+                        <option value="a2">Chevrolet</option>
+                        <option value="a3">Ford</option>
+                        <option value="a4">Kia</option>
+                        <option value="a5">Mazda</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Select con Tamaño Múltiple</td>
+                <td>
+                    <select id="sel" size="6" multiple="multiple">
+                        <option value="a0" selected>Selecciona Marca</option>
+                        <option value="a1">Nissan</option>
+                        <option value="a2">Chevrolet</option>
+                        <option value="a3">Ford</option>
+                        <option value="a4">Kia</option>
+                        <option value="a5">Mazda</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+
+        <!-- Select con Grupos -->
+        <fieldset><legend>Formulario con Grupos</legend>
+        <table border="1">
+            <tr><th>Control</th><th>Objeto</th></tr>
+            <tr>
+                <td>Select con Grupos</td>
+                <td>
+                    <select id="sel">
+                        <optgroup label="Marcas de Vehículos">
+                            <option value="a1">Nissan</option>
+                            <option value="a2">Chevrolet</option>
+                            <option value="a3">Ford</option>
+                            <option value="a4">Kia</option>
+                            <option value="a5">Mazda</option>
+                        </optgroup>
+                        <optgroup label="Marcas de Instrumentos Musicales">
+                            <option value="a1">Jackson</option>
+                            <option value="a2">Fender</option>
+                            <option value="a3">Gibson</option>
+                            <option value="a4">Tama</option>
+                            <option value="a5">Rickenbaker</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+
+    </center>
+</body>
+</html>

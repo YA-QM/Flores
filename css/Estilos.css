@@ -1,0 +1,13 @@
+/* Estilos externos aplicados desde styles.css */
+
+h1 {
+    color: purple;
+    font-family: Arial, sans-serif;
+    font-size: 46px;
+}
+
+p {
+    color: gray;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+}

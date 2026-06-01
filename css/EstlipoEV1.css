@@ -1,0 +1,31 @@
+/* Fondo violeta para toda la barra */
+.navbar {
+  background-color: rgb(141, 0, 141);
+}
+
+/* Inicio en blanco */
+.navbar .nav-link.disabled {
+  color: white;
+}
+
+/* Pedido en azul */
+.navbar .nav-link[href="FormEV1.html"] {
+  color: rgb(0, 183, 255);
+}
+
+/* Catálogo en gris */
+.navbar .nav-link[href*="catalog.to"] {
+  color: rgb(124, 216, 118);
+}
+
+.card-img-top {
+  width: 100%;        /* ocupa todo el ancho del card */
+  height: 250px;      /* altura fija para todas las imágenes */
+  object-fit: cover;  /* recorta manteniendo proporción */
+}
+
+.carousel-item img {
+  width: 100%;        /* ocupa todo el ancho disponible */
+  height: 600px;      /* ajusta la altura según lo que necesites */
+  object-fit: cover;  /* recorta manteniendo proporción */
+}

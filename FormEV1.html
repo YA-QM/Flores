@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Pedidos</title>
+    <meta charset="utf-8">
+</head>
+<body bgcolor="#FBEBFF">
+    <center>
+        <font face="Cooper" color="#334FD4" size="24">Haz tu Pedido</font>
+        <font face="Calibri" color="#2E4053" size="4">
+        <br/><br/>
+
+        <!-- Formulario parte 1 -->
+        <fieldset><legend>Pedido por Catálogo</legend>
+        <form action="https://floree.catalog.to/?msclkid=ff464902b4761abd472c231f86f6c279">
+        <table border="1">
+            <tr><td>Ver Catalogo</td><td align="center"><input type="image" name="boton2" src="img/boton.jpg" width="90px" height="36px" /></td></tr>            
+            <tr>
+                <td>Seleecionar Arreglo del Catálogo</td>
+                <td>
+                    <select id="sel">
+                        <optgroup label="Ramos">
+                            <option value="a1">Luz Cálida</option>
+                            <option value="a2">Paz</option>
+                            <option value="a3">Pasión</option>
+                            <option value="a4">Felicidades</option>
+                            <option value="a5">Pérdoname</option>
+                        </optgroup>
+                        <optgroup label="Arreglos Florales">
+                            <option value="a1">Condolencias</option>
+                            <option value="a2">Aniversario</option>
+                            <option value="a3">Pedida</option>
+                            <option value="a4">Felicitaciones</option>
+                            <option value="a5">Suegrita</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr><td>Mensaje de tarjeta</td><td><input type="text" name="caja1" placeholder="Escriba mensaje que aparecerá en tarjeta (opcional)" /></td></tr>
+            <tr><td>Solicitar pedido</td><td><input type="submit" name="enviar" value="Enviar Pedido" /></td></tr>
+        </table>
+        </form>
+        </fieldset>
+
+                <!-- Formulario parte 2 -->
+        <fieldset><legend>Arma tu pedido</legend>
+        <form action="https://floree.catalog.to/?msclkid=ff464902b4761abd472c231f86f6c279">
+        <table border="1">
+            
+            <tr><td>Tipo de Arreglo</td><td>
+                <input type="radio" name="radio1" value="jd" checked="checked" />Ramo <br/>
+                <input type="radio" name="radio1" value="jv" />Arreglo Floral
+            </td></tr>  
+            <tr><td>Tipos de Flores</td><td>
+                <input type="checkbox" name="check1" value="Op1" />lirio <br/>
+                <input type="checkbox" name="check2" value="Op2" checked="checked" />Rosa <br/>
+                <input type="checkbox" name="check3" value="Op3" />tulipan
+            </td></tr>
+            <tr><td>Mensaje de tarjeta</td><td><input type="text" name="caja1" placeholder="Escriba mensaje que aparecerá en tarjeta (opcional)" /></td></tr>
+            <tr><td>Solicitar pedido</td><td><input type="submit" name="enviar" value="Enviar Pedido" /></td></tr>
+        </table>
+        </form>
+        </fieldset>
+
+    </center>
+</body>
+</html>
