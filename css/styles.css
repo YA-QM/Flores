@@ -1,11 +1,11 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 20px;
-  background-image: url("../img/fondo.jpg"); /* sube un nivel desde css/ */
-  background-size: cover;       /* la imagen cubre toda la pantalla */
-  background-position: center;  /* centrada */
-  background-repeat: no-repeat; /* no se repite */
-  background-attachment: fixed; /* opcional: fondo fijo al hacer scroll */
+  background-image: url("../img/fondo.jpg"); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
@@ -17,20 +17,20 @@ form {
   border-radius: 8px;
 }
 
-/* Labels */
+
 label {
   display: block;
   margin-top: 10px;
 }
 
 h2, h3 {
-  color: #a233d6;              /* color principal del texto */
+  color: #a233d6;             
   text-align: center;
-  font-size: 3rem;             /* tamaño grande */
+  font-size: 3rem;            
   text-shadow: 
-    -2px -2px 0 #fcfcfc,          /* sombra negra arriba izquierda */
-     2px -2px 0 #fffbfb,          /* sombra negra arriba derecha */
-    -2px  2px 0 #efefef,          /* sombra negra abajo izquierda */
-     2px  2px 0 #ffffff;          /* sombra negra abajo derecha */
+    -2px -2px 0 #fcfcfc,         
+     2px -2px 0 #fffbfb,          
+    -2px  2px 0 #efefef,          
+     2px  2px 0 #ffffff;         
 }
 
