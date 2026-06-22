@@ -1,66 +1,36 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 20px;
-  background-color: #fffafc;
+  background-image: url("../img/fondo.jpg"); /* sube un nivel desde css/ */
+  background-size: cover;       /* la imagen cubre toda la pantalla */
+  background-position: center;  /* centrada */
+  background-repeat: no-repeat; /* no se repite */
+  background-attachment: fixed; /* opcional: fondo fijo al hacer scroll */
 }
 
-h2, h3 {
-  color: #d63384;
-  text-align: center;
-}
 
 form {
   margin-bottom: 20px;
   padding: 15px;
-  border: 2px solid #f8bbd0;
-  background-color: #fff0f6;
+  border: 2px solid #863bc4;
+  background-color: #d1a9ef;
   border-radius: 8px;
 }
 
+/* Labels */
 label {
   display: block;
   margin-top: 10px;
 }
 
-button {
-  margin-top: 10px;
-  padding: 6px 12px;
-  background-color: #d63384;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-button:hover {
-  background-color: #a61e4d;
-}
-
-#vistaTarjeta {
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 12px;
-  background: #ffffff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  font-family: 'Segoe UI', sans-serif;
+h2, h3 {
+  color: #a233d6;              /* color principal del texto */
   text-align: center;
-  transition: all 0.3s ease;
+  font-size: 3rem;             /* tamaño grande */
+  text-shadow: 
+    -2px -2px 0 #fcfcfc,          /* sombra negra arriba izquierda */
+     2px -2px 0 #fffbfb,          /* sombra negra arriba derecha */
+    -2px  2px 0 #efefef,          /* sombra negra abajo izquierda */
+     2px  2px 0 #ffffff;          /* sombra negra abajo derecha */
 }
 
-#vistaTarjeta h4 {
-  font-size: 1.4rem;
-  color: #d63384;
-  margin-bottom: 10px;
-}
-
-#vistaTarjeta p {
-  margin: 5px 0;
-  font-size: 1rem;
-}
-
-#vistaTarjeta img {
-  max-width: 100%;
-  border-radius: 10px;
-  margin-top: 15px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
-}
