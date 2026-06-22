@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 20px;
+  background-color: #fffafc;
+}
+
+h2, h3 {
+  color: #d63384;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px solid #f8bbd0;
+  background-color: #fff0f6;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #d63384;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #a61e4d;
+}
+
+#vistaTarjeta {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+#vistaTarjeta h4 {
+  font-size: 1.4rem;
+  color: #d63384;
+  margin-bottom: 10px;
+}
+
+#vistaTarjeta p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+#vistaTarjeta img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
